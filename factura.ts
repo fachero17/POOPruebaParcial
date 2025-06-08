@@ -5,14 +5,18 @@ import { ServicioAdicional } from './ServicioAdicional';
 
 export class Factura {
   constructor(
-    public numero: number,
-    public fechaEmision: Date,
-    public total: number,
-    public cliente: Cliente,
-    public reserva: Reserva,
-    public pago: Pago,
-    public serviciosAdicionales: ServicioAdicional[]
+    private numero: number,
+    private fechaEmision: Date,
+    private total: number,
+    private cliente: Cliente,
+    private reserva: Reserva,
+    private pago: Pago,
+    private servicios: ServicioAdicional[]
   ) {}
 
-  generarPDF(): void {}
+  public generarPDF(): void {}
+
+  public getTotal(): number {
+    return this.total;
+  }
 }
