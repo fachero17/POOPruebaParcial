@@ -1,5 +1,5 @@
 
-// Archivo: Reserva.ts
+
 export class Reserva {
   constructor(
     public codigo: string,
