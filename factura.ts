@@ -16,7 +16,5 @@ export class Factura {
 
   public generarPDF(): void {}
 
-  public getTotal(): number {
-    return this.total;
-  }
+  public getTotal(){}
 }
