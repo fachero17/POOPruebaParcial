@@ -1,10 +1,10 @@
 
 export class Cliente {
   constructor(
-    public nombre: string,
-    public cedula : string,
-    public correo: string,
-    public telefono: string,
+    private nombre: string,
+    private cedula : string,
+    private correo: string,
+    private telefono: string,
   ) {}
 
   hacerReserva(){}
