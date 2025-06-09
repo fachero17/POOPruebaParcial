@@ -2,7 +2,7 @@
 export class Cliente {
   constructor(
     public nombre: string,
-    public dni: string,
+    public cedula : string,
     public correo: string,
     public telefono: string,
   ) {}
