@@ -1,8 +1,8 @@
 export class Empleado {
   constructor(
-    public nombre: string,
-    public idEmpleado: string,
-    public cargo: string,
+    private nombre: string,
+    private idEmpleado: string,
+    private cargo: string,
   ) {}
 
   registrarCheckIn(){}
