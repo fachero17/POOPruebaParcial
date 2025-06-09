@@ -2,10 +2,10 @@
 
 export class Reserva {
   constructor(
-    public codigo: string,
-    public fechaInicio: Date,
-    public fechaFin: Date,
-    public estado: boolean,
+    private codigo: string,
+    private fechaInicio: Date,
+    private fechaFin: Date,
+    private estado: boolean,
   ) {}
 
   confirmar(){}
