@@ -1,4 +1,7 @@
+import { Habitacion } from './Habitacion';
+
 export class Hotel {
+  private habitaciones: Habitacion[] = [];
   constructor(
     public nombre: string,
     public direccion: string,
