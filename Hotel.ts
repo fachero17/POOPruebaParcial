@@ -1,10 +1,11 @@
 export class Hotel {
-  contructor(
+  constructor(
     public nombre: string,
     public direccion: string,
     public telefono: string
     ) {}
 
-  mostrarHabitacionesDisponibles(){}
-  gestionarServicios(){}
+ mostrarHabitacionesDisponibles(): void {
+    console.log(`${this.nombre} tiene ${this.habitacionesDisponibles} habitaciones disponibles.`);
+  }  gestionarServicios(){}
 }
